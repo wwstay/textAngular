@@ -13,11 +13,8 @@
 
 /* add generic styling for the editor */
 .ta-root.focussed > .ta-scroll-window.form-control {
-    border-color: #66afe9;
+    border-color: #5C0B26;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 
 .ta-editor.ta-html, .ta-scroll-window.form-control {
@@ -190,4 +187,14 @@
     content: " ";
     border-top-width: 0;
     border-bottom-color: #fff;
+}
+
+.ta-toolbar {
+    background: #F0F0F0;
+    padding: 5px 5px 0 0px;
+    margin-left: 0px;
+}
+
+.ta-toolbar .btn-group {
+    margin-bottom: 5px;
 }

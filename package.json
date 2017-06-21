@@ -56,6 +56,7 @@
     "phantomjs-polyfill": "0.0.2"
   },
   "scripts": {
+    "build": "$(yarn bin)/grunt",
     "test": "bower install && grunt travis-test --verbose"
   },
   "repository": {
