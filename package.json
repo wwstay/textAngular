@@ -18,15 +18,14 @@
   ],
   "license": "MIT",
   "homepage": "http://textangular.com",
-  "main": "./dist/textAngular.umd.js",
+  "main": "./dist/textAngular.js",
   "dependencies": {
     "rangy": "^1.3.0"
   },
   "browserDependencies": {
     "angular": "^1.2.x",
     "rangy": "^1.3.0",
-    "bootstrap": "^3.0.x",
-    "font-awesome": "^4.0.x"
+    "bootstrap": "^3.0.x"
   },
   "devDependencies": {
     "bower": "^1.3.3",
