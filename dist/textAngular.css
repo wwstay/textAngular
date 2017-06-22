@@ -198,3 +198,7 @@
 .ta-toolbar .btn-group {
     margin-bottom: 5px;
 }
+
+.ta-editor .placeholder-text::before {
+    color: #999999;
+}
